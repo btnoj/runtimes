@@ -1,0 +1,7 @@
+image: btnoj/runtimes:latest
+manifests:
+  -
+    image: btnoj/runtimes:amd64-latest
+    platform:
+      architecture: amd64
+      os: linux
