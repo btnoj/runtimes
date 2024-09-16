@@ -32,4 +32,4 @@ jobs:
           echo "$GITHUB_TOKEN" | docker login ghcr.io -u $ --password-stdin
           docker push ghcr.io/btnoj/runtimes:amd64-latest
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_GRANT }}
